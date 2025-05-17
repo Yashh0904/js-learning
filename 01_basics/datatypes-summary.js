@@ -64,7 +64,7 @@ let userOne = {
 
 let userTwo = userOne
 
-//unlike stack memory, in heap memory, non-primitive data types point to the location in head. each copy made also points at the same heap location. changes at once place change all data type values
+//unlike stack memory, in heap memory, non-primitive data types reference to the location in head. each copy made also points at the same heap location. changes at once place change all data type values
 
 userTwo.email = "userTwo@gmail.com"
 
