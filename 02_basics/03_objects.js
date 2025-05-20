@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 const jsUser = {
     name: "yash",
     "full name": "yash gupta", 
-    //cannot access it via obj.key, so we use obj[key], prefer it
+    //cannot access this specifically via obj.key, so we use obj[key], prefer it
     [mySym]: "myKey1", //use symbol as a key (refer mdn)
     age: 20,
     location: "ho chi min",
@@ -36,4 +36,4 @@ jsUser.greetingTwo = function(){
 }
 
 console.log(jsUser.greeting()); //print jsUser.greeting as well
-console.log(jsUser.greetingTwo()); //print jsUser.greeting as well
+console.log(jsUser.greetingTwo()); 

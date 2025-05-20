@@ -18,7 +18,7 @@ const regularUser = {
 }
 
 //console.log(regularUser.fullname?.userfullname.lastname);   
-//? for optional chaining       usually used for api responses
+//? for optional chaining to see if key exists or not     usually used for api responses
 
 const obj1 = {1: 'a', 2:'b'}
 const obj2 = {3: 'c', 4:'d'}
